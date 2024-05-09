@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 16px 0 0 0;
+}
+
+.text{
+    margin: auto;
+    padding: 16px 16px;
+    border-radius: 25px;
+    border: 2px solid blue;
+    width: 500px;
+}
+
+.text h1{
+    text-align: center;
+    color: blueviolet;
+}
+
+.text p{
+    text-align: left;
+    padding: 16px 0;
+    color: blueviolet;
+}
+
+.Contact{
+        text-align: center;
+        background-color: rgb(3, 87, 214);
+        color: white;
+        width: 100%;
+        margin: 16px 0 0;
+        padding: 16px;
+        bottom: 0;
+        position: sticky;
+}
+

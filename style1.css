@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 16px 16px;
+}
+
+.container{
+    width: 610px;
+    height: 610px;
+    padding: 16px 16px;
+    border: 3px solid black;
+    position: relative;
+}
+
+.container div{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.block1{
+    border: 2px solid red;
+
+}
+
+.block2{
+    border: 2px solid blue;
+    left: 166px;
+}
+
+.block3{
+    border: 2px solid green;
+    left: 316px;
+}
